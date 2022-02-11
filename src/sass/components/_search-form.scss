@@ -1,0 +1,49 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+
+  font-size: 18pt;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+
+  &__input {
+    margin-right: 20px;
+
+    padding: 5px 20px;
+
+    width: 400px;
+    height: 100%;
+
+    outline: none;
+    border: 1px solid;
+    border-radius: 15px;
+
+    line-height: normal;
+
+    transition: all 200ms linear;
+    &:active,
+    &:focus {
+      border-color: rgb(13, 154, 236);
+      box-shadow: 4px 0px 10px 0px rgba(34, 60, 80, 0.4);
+    }
+  }
+}
+
+.submit-button {
+  background-color: rgb(55, 118, 253);
+  color: white;
+
+  border: none;
+  border-radius: 15px;
+  line-height: normal;
+
+  transition: all 200ms linear;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(55, 164, 253);
+  }
+  &:active {
+    background-color: rgb(55, 118, 253);
+  }
+}
