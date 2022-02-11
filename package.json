@@ -1,22 +1,22 @@
 {
-  "name": "js-homework",
+  "name": "js-final-homework",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://KAVASAKKI.github.io/JS-HomeWork",
+  "homepage": "https://KAVASAKKI.github.io/JS-final-homework",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /JS-HomeWork/"
+    "build": "parcel build src/*.html --public-url /JS-final-homework/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KAVASAKKI/JS-HomeWork.git"
+    "url": "git+https://github.com/KAVASAKKI/JS-final-homework.git"
   },
   "keywords": [],
   "author": "Pavel Omelchenko <p.omel4enko2002@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KAVASAKKI/JS-HomeWork/issues"
+    "url": "https://github.com/KAVASAKKI/JS-final-homework/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
